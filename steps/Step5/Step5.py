@@ -1,11 +1,13 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-#Path Params
+#sayYourName
 
 @app.route('/sayYourName/<name>')
 def sayYourName(name):
 	return render_template('index.html',name=name)
+
+#hello
 
 @app.route('/hello/')
 def hello_no_name():
@@ -14,6 +16,8 @@ def hello_no_name():
 @app.route('/hello/<name>')
 def hello(name):
 	return render_template('control_statemantes.html',name=name)
+
+#loop
 
 @app.route('/loop')
 def loop():
