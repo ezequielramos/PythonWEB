@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <h1>Users List:</h1>
+    <table border=1>
+    	<tr>
+    		<th>user</th>
+    		<th>password</th>
+    	</tr>
+
+    	{% for user in users %}
+	    <tr>
+	    	<td>{{ user.name }}</td>
+	    	<td>{{ user.pass }}</td>
+	    </tr>
+	    {% endfor %}
+
+    </table>    
+  </body>
+</html>
