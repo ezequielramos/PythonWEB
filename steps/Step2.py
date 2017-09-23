@@ -1,6 +1,8 @@
 from flask import Flask
 app = Flask(__name__)
 
+#Path Params
+
 @app.route('/sayYourName/<name>')
 def sayYourName(name):
 	return name
