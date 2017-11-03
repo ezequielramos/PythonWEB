@@ -25,7 +25,7 @@ def index():
     password = request.args.get('pass')
 
     conn = sqlite3.connect('test.db')
-    
+
     if user and password:
         c = conn.cursor()
         c.execute("INSERT INTO users (user, password) VALUES(?,?)",(user,password))
@@ -37,7 +37,7 @@ def index():
 
 #list
 @app.route('/list')
-def list():
+def list_users():
 
     conn = sqlite3.connect('test.db')
     c = conn.cursor()
@@ -47,4 +47,4 @@ def list():
 
     return render_template('list.html',users=users)
 
-app.run(debug=True)
+app.run()
