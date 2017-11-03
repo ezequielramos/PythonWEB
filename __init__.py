@@ -32,7 +32,7 @@ def index():
         conn.commit()
 
     conn.close()
-        
+
     return render_template('index.html',user=user,password=password)
 
 #list
