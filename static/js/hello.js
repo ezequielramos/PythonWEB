@@ -3,5 +3,3 @@ function hello(){
 }
 
 hello();
-
-console.info("ahuahuauha");

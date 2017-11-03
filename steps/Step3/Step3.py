@@ -20,4 +20,4 @@ def login():
 
 	return "user:" + user + " pass:" + password
 
-app.run(debug=True)
+app.run()

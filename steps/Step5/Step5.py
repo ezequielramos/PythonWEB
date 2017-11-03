@@ -30,4 +30,4 @@ def loop():
 	}]
 	return render_template('loop.html',users=users)
 
-app.run(debug=True)
+app.run()

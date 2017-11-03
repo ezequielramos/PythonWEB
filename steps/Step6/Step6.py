@@ -20,9 +20,9 @@ def index():
 
 #list
 @app.route('/list')
-def list():
+def list_users():
 	return render_template('list.html',users=users)
 
 users = []
 
-app.run(debug=True)
+app.run()

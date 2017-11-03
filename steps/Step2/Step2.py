@@ -11,4 +11,4 @@ def sayYourName(name):
 def sayYourAge(number):
 	return str(number + 3)
 
-app.run(debug=True)
+app.run()

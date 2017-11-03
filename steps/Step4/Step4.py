@@ -14,4 +14,4 @@ def sayYourName(name):
 </body>
 </html>'''
 
-app.run(debug=True)
+app.run()
