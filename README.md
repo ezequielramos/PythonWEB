@@ -2,7 +2,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1eb5f81653441b6adbf4826394376d2)](https://www.codacy.com/app/ezequielramos/PythonWEB?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ezequielramos/PythonWEB&amp;utm_campaign=Badge_Grade)
 
-![Creative Commons Attribution 4.0 International Public License](https://licensebuttons.net/l/by/4.0/80x15.png)
+![Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
 Python Web - UDESC
 
